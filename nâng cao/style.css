@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    /* padding: 2px; */
+}
+
+.container {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 48% 25% 25%;
+    grid-template-rows: 380px 280px;
+    gap: 15px;
+    justify-content: center;
+}
+
+.g-col-6 {
+    background-color: #f0f8ff;
+    padding: 10px;
+}
+
+.grid h2 {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.g-col-3 {
+    background-color: #f0f8ff;
+    padding: 10px;
+}
+
+.g6-goal {
+    display: flex;
+    margin: 5px;
+}
+
+.g6-flag {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.g6-seperate {
+    border-bottom: 1px solid rgba(51, 51, 51,0.2);
+}
+
+.g3-member {
+    display: flex;
+    margin: 5px 5px 15px 5px;
+}
+
+.g3-mem_avata {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.g3-timeline {
+    grid-column: 3/-1;
+    grid-row: 1/ -1;
+}
+
+.g3-pro_seperate {
+    border: 1px dashed #aee0e6;
+}
+
+.g3-project {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.g3-pro_number {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.g3-pro_number {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: white;
+    border-radius: 999px;
+    border:2px solid #d71a1a;
+    background-color: #6c3b7e;
+    margin-right: 15px;
+}
+
+.g3-pro_start {
+    border-bottom: 2px dashed #aee0e6;
+    flex: 1;
+    padding-bottom: 10px;
+}
+
+.g6-in-out {
+    display: flex;
+}
+
+.g3-questions {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.g3-questions_icon {
+    width: 30%;
+    height: 30%;
+    background: #000;
+    border-radius: 999px;
+    margin-right: 20px;
+    
+}
+
+.g3-questions_icon i{
+    width: 40px;
+    height: 40px;
+    font-size: 2dvh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

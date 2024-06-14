@@ -1,0 +1,68 @@
+/* tablet */
+@media screen and (max-width: 1023px) {
+    .grid {
+        display: block;
+    }
+
+    .g-col_tablet {
+        width: 100%;
+    }
+    
+    .g6-goal {
+        display: block;
+        margin: 15px 15px;
+    }
+
+    .g6-flag {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .g3-member {
+        display: block;
+       margin: 15px 15px;
+    }
+
+    .g3-mem_avata {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+
+    .g3-project {
+        display: block;
+       margin: 15px 15px;
+    }
+
+    .g6-in-out {
+        display: block;
+       margin: 15px 15px;
+    }
+
+    .g3-questions {
+        display: block;
+       margin: 15px 15px;
+    }
+
+    .g3-questions_icon {
+        width: 100%;
+        background-color: #f0f8ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .g3-questions_icon i{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #000;
+        border-radius: 999px;
+    
+    }
+}
